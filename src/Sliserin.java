@@ -37,9 +37,9 @@ public class Sliserin extends Hogwards {
 
   public void comparer(Sliserin other) {
     if (this.sum() > other.sum()) {
-      System.out.println(this.getName() + " лучший гриффиндорец чем "+other.getName());
+      System.out.println(this.getName() + " лучший слизеринец чем "+other.getName());
     } else {
-      System.out.println(other.getName() + " лучший гриффиндорец чем "+this.getName());
+      System.out.println(other.getName() + " лучший слизеринец чем "+this.getName());
     }
   }
 
